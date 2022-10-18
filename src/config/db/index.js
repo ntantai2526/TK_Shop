@@ -6,7 +6,7 @@ async function connect() {
     try {
         await mongoose.connect('mongodb://localhost:27017/TK_Shop',{
             useNewUrlParser: true,
-            useUnifiedTopology: true
+            useUnifiedTopology: true,
         });
         console.log('Connect successfully!!!')
     } catch (error) {
