@@ -34,6 +34,7 @@ app.set('views', path.join(__dirname, 'resources\\views'));
 
 // Route init khởi tạo tuyến đường
 
+
 route(app);
 
 
