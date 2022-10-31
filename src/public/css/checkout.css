@@ -8,30 +8,25 @@ body {
 }
 
 .main_checkout {
-  display: -ms-flexbox;
-  /* IE10 */
+  display: -ms-flexbox; /* IE10 */
   display: flex;
-  -ms-flex-wrap: wrap;
-  /* IE10 */
+  -ms-flex-wrap: wrap; /* IE10 */
   flex-wrap: wrap;
   margin: 0 -16px;
 }
 
 .col-25-w3 {
-  -ms-flex: 25%;
-  /* IE10 */
+  -ms-flex: 25%; /* IE10 */
   flex: 25%;
 }
 
 .col-50-w3 {
-  -ms-flex: 50%;
-  /* IE10 */
+  -ms-flex: 50%; /* IE10 */
   flex: 50%;
 }
 
 .col-75-w3 {
-  -ms-flex: 75%;
-  /* IE10 */
+  -ms-flex: 75%; /* IE10 */
   flex: 75%;
 }
 
@@ -101,7 +96,6 @@ span.price {
   .row {
     flex-direction: column-reverse;
   }
-
   .col-25 {
     margin-bottom: 20px;
   }

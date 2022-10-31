@@ -362,22 +362,18 @@ body {
   .navigation-admin {
     left: -300px;
   }
-
   .navigation-admin.active {
     left: 0;
     width: 300px;
   }
-
   .main {
     width: 100%;
     left: 0;
   }
-
   .main-admin.active {
     width: calc(100% - 300px);
     left: 300px;
   }
-
   .cardBox {
     grid-template-columns: repeat(2, 1fr);
   }
@@ -386,7 +382,6 @@ body {
   .details-admin {
     grid-template-columns: repeat(1, 1fr);
   }
-
   .cardHeader h2 {
     font-weight: 600;
     font-size: 18px;
@@ -396,33 +391,27 @@ body {
   .cardBox {
     grid-template-columns: repeat(1, 1fr);
   }
-
   .details-admin .recentOders {
     overflow-x: auto;
   }
-
   .details-admin .recentOders table {
     width: 600px;
   }
-
   .navigation-admin {
     width: 100%;
     left: -100%;
     z-index: 10000;
   }
-
   .navigation-admin.active {
     width: 100%;
     left: 0;
   }
-
   .toggle-admin.active {
     position: fixed;
     z-index: 10000;
     right: 0;
     left: initial;
   }
-
   .toggle-admin.active:before {
     color: #FFF;
   }
