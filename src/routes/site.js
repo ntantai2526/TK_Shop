@@ -1,14 +1,25 @@
 const express = require('express');
 const router = express.Router();
+const passport              =  require("passport");
+const passportLocal         = require("passport-local");
+const bodyParser            =  require("body-parser");
+const LocalStrategy   = require('passport-local').Strategy;
+const passportLocalMongoose =  require("passport-local-mongoose");
+const { ensureAuthenticated } = require('../config/auth/auth');
+const { notLoggedIn } = require('../config/function/function');
+
 
 const siteController = require('../app/controllers/SiteController');
+// ------------------ Login
+const UserController = require('../app/controllers/UserController');
 
-//trang không có sự liên hệ vd: trang chủ, thông tin
-
+router.get('/product', siteController.product);
+router.get('/gioithieu', siteController.gioithieu);
 router.get('/search', siteController.search);
-router.get('/infor', siteController.infor);
+router.get('/', siteController.home);
 
-
-router.get('/', siteController.index);
 
 module.exports = router;
+
+
+  
