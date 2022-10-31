@@ -13,8 +13,7 @@
 }
 
 .wrapper {
-  background-color: #00b3a0;
-  /*#171c24*/
+  background-color: rgb(0, 179, 160); /*#171c24*/
   position: fixed;
   width: 100%;
   z-index: 70;
@@ -113,8 +112,7 @@ nav .content .links {
   outline: none;
   font-size: 17px;
   color: #fff;
-  background: #00b3a0;
-  /*#171c24;*/
+  background: rgb(0, 179, 160); /*#171c24;*/
   padding: 0 100px 0 15px;
 }
 
@@ -129,8 +127,7 @@ nav .content .links {
   transform: translateY(-50%);
   line-height: 60px;
   width: 70px;
-  background: #00b3a0;
-  /*#171c24;*/
+  background: rgb(0, 179, 160); /*#171c24;*/
   border: none;
   outline: none;
   color: #fff;
@@ -186,19 +183,15 @@ nav .content .links {
     max-width: 100%;
     padding: 0 20px;
   }
-
   nav .content .links {
     margin-left: 30px;
   }
-
   .content .links li a {
     padding: 8px 13px;
   }
-
   .wrapper .search-box {
     max-width: calc(100% - 100px);
   }
-
   .wrapper .search-box input {
     padding: 0 100px 0 15px;
   }
@@ -207,11 +200,9 @@ nav .content .links {
   .wrapper .menu-icon {
     display: block;
   }
-
   .wrapper #show-menu:checked ~ .menu-icon i::before {
     content: "\f00d";
   }
-
   nav .content .links {
     display: block;
     position: fixed;
@@ -226,15 +217,12 @@ nav .content .links {
     padding-bottom: 100px;
     transition: all 0.3s ease;
   }
-
   nav #show-menu:checked ~ .content .links {
     left: 0%;
   }
-
   .content .links li {
     margin: 15px 20px;
   }
-
   .content .links li a,
 .content .links li label {
     line-height: 40px;
@@ -243,11 +231,9 @@ nav .content .links {
     padding: 8px 18px;
     cursor: pointer;
   }
-
   .content .links li a.desktop-link {
     display: none;
   }
-
   /* dropdown responsive code start */
   .content .links ul,
 .content .links ul ul {
@@ -258,17 +244,14 @@ nav .content .links {
     max-height: 0px;
     overflow: hidden;
   }
-
   .content .links #show-features:checked ~ ul,
 .content .links #show-services:checked ~ ul,
 .content .links #show-items:checked ~ ul {
     max-height: 100vh;
   }
-
   .content .links ul li {
     margin: 7px 20px;
   }
-
   .content .links ul li a {
     font-size: 18px;
     line-height: 30px;
@@ -279,20 +262,16 @@ nav .content .links {
   .wrapper nav {
     padding: 0 10px;
   }
-
   .content .logo a {
     font-size: 27px;
   }
-
   .wrapper .search-box {
     max-width: calc(100% - 70px);
   }
-
   .wrapper .search-box .go-icon {
     width: 30px;
     right: 0;
   }
-
   .wrapper .search-box input {
     padding-right: 30px;
   }

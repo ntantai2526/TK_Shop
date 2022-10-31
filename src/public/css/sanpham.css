@@ -19,7 +19,7 @@
 }
 
 .wrapper_ite .dis_flc .dis_flcite {
-  background-color: #e9ecef00 !important;
+  background-color: rgba(233, 236, 239, 0) !important;
 }
 
 .dis_flc {
@@ -58,7 +58,7 @@ a {
 }
 
 .wrapper_sp1 .bre_sp {
-  background-color: #e9ecef00 !important;
+  background-color: rgba(233, 236, 239, 0) !important;
 }
 
 .wrapper_sp1 .bre_sp .sizebre {
@@ -229,7 +229,6 @@ a {
     padding: 20px;
     float: left;
   }
-
   /*
     .card {
         width: 300px;
@@ -275,7 +274,6 @@ a {
     padding: 20px;
     float: left;
   }
-
   /*
       .card {
           width: 200px;
@@ -331,7 +329,6 @@ a {
     padding: 20px;
     float: left;
   }
-
   /*
       .card {
           border: none
@@ -367,7 +364,6 @@ a {
     padding: 20px;
     float: left;
   }
-
   /*
       .card {
           border: none
@@ -408,12 +404,10 @@ a {
   #sidebar {
     display: none;
   }
-
   .filter {
     margin-left: 70%;
     margin-top: 2%;
   }
-
   /*
     #sorting,
     #res {
