@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+{{!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
 <link rel='stylesheet' href='/css/header.css' />
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -48,6 +48,51 @@
     </form>
   </div>
 </div>
+
+
+ --}}
+<link rel="stylesheet" href="/css/login.css">
+<link rel="stylesheet" href="/js/login.css">
+
+<form class='container mt-5 my_con pr-5 pl-5 bg-light' method="post" action="/me/login" id="login-form">
+  <div class="cont">
+  <div class="demo">
+    <div class="login">
+      <div class="login__check"></div>
+      <div class="login__form">
+        <div for='username' class="login__row">
+          <svg class="login__icon name svg-icon" viewBox="0 0 20 20">
+            <path d="M0,20 a10,8 0 0,1 20,0z M10,0 a4,4 0 0,1 0,8 a4,4 0 0,1 0,-8" />
+          </svg>
+          <input
+           type="text" 
+           id="username" 
+           class="login__input name" 
+           placeholder="Username" 
+           name="username"/>
+        </div>
+        <div for='inputPassword' class="login__row">
+          <svg class="login__icon pass svg-icon" viewBox="0 0 20 20">
+            <path d="M0,20 20,20 20,8 0,8z M10,13 10,16z M4,8 a6,8 0 0,1 12,0" />
+          </svg>
+          <input
+           type="password" 
+           id="password"
+           class="login__input pass" 
+           placeholder="Password"
+           name="password"/>
+        </div>
+        {{>messages}}
+        <button type="submit" class="login__submit">Sign in</button>
+        <p class="login__signup">Don't have an account? &nbsp;<a href="/me/register">Sign up</a></p>
+      </div>
+    </div>   
+  </div>
+</div>
+  <input type="hidden" name="_csrf" value="{{csrfToken}}">
+</form>
+
+
 
 {{!-- 
 <script>

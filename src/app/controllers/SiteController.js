@@ -5,10 +5,10 @@ class SiteController {
   home(req, res, next) {
     
       //select * from cho models product bằng mongodb
-      Product.find({category: "Máy nước nóng"})
+      Product.find({category: "Điện thoại"})
       .limit(4)//giới hạn sản phẩm được hiển thị  
       .then((productD1) => { //Bắt dữ liệu từ dòng 8
-        Product.find({category: "Máy lọc nước"})
+        Product.find({category: "Phụ kiện"})
         .limit(4)//giới hạn sản phẩm được hiển thị  
         .then((product) => {//Bắt dữ liệu từ dòng 11
           res.render('index', {
@@ -32,7 +32,7 @@ class SiteController {
   product(req, res, next) {
     var sort = req.body.sort = req.query.sort; //sắp xếp
     var page = req.query.page;//trang
-    const perPage  = 6 //số sản phẩm được hiển thị trên 1 trang
+    const perPage  = 8 //số sản phẩm được hiển thị trên 1 trang
     if(page){
       page = parseInt(page)//chuyển string sang int
       if(page < 1){

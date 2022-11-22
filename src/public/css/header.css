@@ -13,7 +13,8 @@
 }
 
 .wrapper {
-  background-color: rgb(0, 179, 160); /*#171c24*/
+  background-color: #262626;
+  /*#171c24*/
   position: fixed;
   width: 100%;
   z-index: 70;
@@ -112,7 +113,8 @@ nav .content .links {
   outline: none;
   font-size: 17px;
   color: #fff;
-  background: rgb(0, 179, 160); /*#171c24;*/
+  background: #262626;
+  /*#171c24;*/
   padding: 0 100px 0 15px;
 }
 
@@ -127,7 +129,8 @@ nav .content .links {
   transform: translateY(-50%);
   line-height: 60px;
   width: 70px;
-  background: rgb(0, 179, 160); /*#171c24;*/
+  background: rgb(96, 101, 225);
+  /*#171c24;*/
   border: none;
   outline: none;
   color: #fff;
@@ -290,5 +293,47 @@ nav .content .links {
   font-size: 45px;
   margin: 5px 0;
 }*/
+:root {
+  --shadow-color: #FF9E9E;
+  --shadow-color-light: white;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Archivo", sans-serif;
+}
+
+p {
+  margin: auto;
+  font-size: 25px;
+  text-transform: uppercase;
+  font-family: "Archivo Black", "Archivo", sans-serif;
+  font-weight: normal;
+  display: block;
+  height: auto;
+  text-align: center;
+}
+
+.logo-1 {
+  color: white;
+  animation: neon 3s infinite;
+}
+
+@keyframes neon {
+  0% {
+    text-shadow: -1px -1px 1px var(--shadow-color-light), -1px 1px 1px var(--shadow-color-light), 1px -1px 1px var(--shadow-color-light), 1px 1px 1px var(--shadow-color-light), 0 0 3px var(--shadow-color-light), 0 0 10px var(--shadow-color-light), 0 0 20px var(--shadow-color-light), 0 0 30px var(--shadow-color), 0 0 40px var(--shadow-color), 0 0 50px var(--shadow-color), 0 0 70px var(--shadow-color), 0 0 100px var(--shadow-color), 0 0 200px var(--shadow-color);
+  }
+  50% {
+    text-shadow: -1px -1px 1px var(--shadow-color-light), -1px 1px 1px var(--shadow-color-light), 1px -1px 1px var(--shadow-color-light), 1px 1px 1px var(--shadow-color-light), 0 0 5px var(--shadow-color-light), 0 0 15px var(--shadow-color-light), 0 0 25px var(--shadow-color-light), 0 0 40px var(--shadow-color), 0 0 50px var(--shadow-color), 0 0 60px var(--shadow-color), 0 0 80px var(--shadow-color), 0 0 110px var(--shadow-color), 0 0 210px var(--shadow-color);
+  }
+  100% {
+    text-shadow: -1px -1px 1px var(--shadow-color-light), -1px 1px 1px var(--shadow-color-light), 1px -1px 1px var(--shadow-color-light), 1px 1px 1px var(--shadow-color-light), 0 0 3px var(--shadow-color-light), 0 0 10px var(--shadow-color-light), 0 0 20px var(--shadow-color-light), 0 0 30px var(--shadow-color), 0 0 40px var(--shadow-color), 0 0 50px var(--shadow-color), 0 0 70px var(--shadow-color), 0 0 100px var(--shadow-color), 0 0 200px var(--shadow-color);
+  }
+}
 
 /*# sourceMappingURL=header.css.map */

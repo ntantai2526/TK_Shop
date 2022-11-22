@@ -6,7 +6,7 @@ const multer  = require('multer');
 
 const storage = multer.diskStorage({
     destination: function (req, file, cb) {
-      cb(null, '../ProjectNJS/src/public/uploads')
+      cb(null, '../TK_Shop/src/public/uploads')
     },
     filename: function (req, file, cb) {
       var ext = path.extname(file.originalname)

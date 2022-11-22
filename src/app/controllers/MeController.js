@@ -156,9 +156,10 @@ class MeController {
 
     //logout
     logout(req,res,next){
-        req.logout();
-        req.flash('success_msg', ' You are logged out');
-        res.redirect('/me/login'); 
+      req.logout(function(err) {
+        if (err) { return next(err); }
+        res.redirect('/me/login');
+      });
     }
 
     //Add To Cart
