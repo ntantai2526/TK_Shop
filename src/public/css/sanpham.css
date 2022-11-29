@@ -73,6 +73,8 @@ a {
 .pagi_sp {
   margin-right: 28px;
   margin-top: 36px;
+  display: flex;
+  justify-content: center;
 }
 
 /*breadcrumb
@@ -728,6 +730,28 @@ body {
 
 .tearea {
   margin: 0 0 0 0;
+}
+
+.lottie {
+  display: flex;
+  position: absolute;
+  top: 70px;
+  left: 660px;
+  width: 165px;
+}
+
+.space_product {
+  margin-top: 2em;
+  width: 100%;
+  height: 10em;
+}
+
+a {
+  color: black;
+}
+
+a:hover {
+  color: #0d6efd;
 }
 
 /*# sourceMappingURL=sanpham.css.map */

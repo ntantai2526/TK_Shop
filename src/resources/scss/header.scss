@@ -14,12 +14,12 @@
 }
 
 .wrapper {
-  background-color: #262626;
-  /*#171c24*/
-  position: fixed;
-  width: 100%;
-  z-index: 70;
-  top: 0;
+  //background-image: linear-gradient(to right,rgba(255,0,0,0),rgba(255,0,0,1));
+    background-color:#b08bf8;
+    position: fixed;
+    width: 100%;
+    z-index: 70;
+    top: 0;
 }
 
 .wrapper nav {
@@ -114,23 +114,23 @@ nav .content .links {
   outline: none;
   font-size: 17px;
   color: #fff;
-  background: #262626;
+  background-image: linear-gradient(to right,rgba(255,0,0,0),rgba(255,0,0,1));
   /*#171c24;*/
   padding: 0 100px 0 15px;
 }
 
 .search-box input::placeholder {
-  color: #f2f2f2;
+  color: #541818;
 }
 
 .search-box .go-icon {
   position: absolute;
-  right: 10px;
+  right: 135px;
   top: 50%;
   transform: translateY(-50%);
   line-height: 60px;
   width: 70px;
-  background: rgb(96, 101, 225);
+  background-image: linear-gradient(to right,rgba(255,0,0,0),rgba(255,0,0,1));
   /*#171c24;*/
   border: none;
   outline: none;

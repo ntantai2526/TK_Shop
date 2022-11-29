@@ -1,7 +1,7 @@
 body {
-    background: #67B26F;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #4ca2cd, #67B26F);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #4ca2cd, #67B26F); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  //background: url("../images/banner/wallpaperflare.com_wallpaper.jpg")   center no-repeat fixed;
+  //background-size: cover;
+  background-color: #eee;
     padding: 0;
     margin: 0;
     font-family: 'Lato', sans-serif;
@@ -44,7 +44,7 @@ body {
 
   .wrapper_gt1 {
     height: 180px;
-    background-color: var(--popular-color) !important;
+    background-color: #26262682;
   }
 
 .student-profile .card .card-header .profile_img {
@@ -98,3 +98,39 @@ body {
   overflow: scroll;
   height: 280px;
 }
+
+.card-title{
+  padding: 35px 0 0 0;
+  color: #ffff;
+}
+
+.space_account {
+  margin-top: 2em;
+  width: 100%;
+  height: 10em;
+  background: #262626b3;
+}
+
+.lottie {
+  display: flex;
+  position: absolute;
+  top: 70px;
+  left: 660px;
+  width: 165px;
+}
+.profile_change{
+  //display: flex;
+  //flex-direction: column;
+}
+
+.profile_change_1{
+  display: flex;
+  
+}
+
+p.hello_account {
+  //font-style: Serif;
+  font-family: serif ;
+}
+//===========================================
+
